@@ -1,7 +1,6 @@
 import streamlit as st 
 import pickle
-import tensorflow
-from tensorflow.keras.models import load_model 
+
 import pandas as pd
 import numpy as np 
 
@@ -72,5 +71,6 @@ if st.button("Predict"):
         st.write("Patience heart is failure")
     else:
         st.write("Patience heart is good")
+
 
 
